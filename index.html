@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8"/>
+  <title>Workout</title>
+  <meta name="description" content="Workout"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link rel="shortcut icon" href="images/favicons/favicon.ico"/>
+  <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png" />
+
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+<div id="js-counter" class="js-workout-page ag-workout-page">
+  <header id="js-header" class="ag-header">
+    <div class="ag-format-container">
+      <div class="ag-header_info">
+        <a href="/" class="ag-logo_link">
+          Workout
+        </a>
+
+        <div class="js-nav ag-header_col__right">
+          <div class="js-nav_btn-close ag-nav_btn-close"></div>
+
+          <nav class="ag-nav">
+            <ul class="ag-nav_list">
+              <li class="ag-nav_item">
+                <a href="/exercises" class="ag-nav_link">
+                  Exercises
+                </a>
+              </li>
+              <li class="ag-nav_item">
+                <a href="/trainers" class="ag-nav_link">
+                  Trainers
+                </a>
+              </li>
+              <li class="ag-nav_item">
+                <a href="/pricing" class="ag-nav_link">
+                  Pricing
+                </a>
+              </li>
+              <li class="ag-nav_item">
+                <a href="/login" class="ag-nav_link">
+                  Login
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="js-ag-nav_bars">
+      <div class="ag-nav-bars_icons"></div>
+    </div>
+  </header>
+
+  <div class="ag-primary-block">
+    <div class="ag-format-container">
+      <div class="ag-primary_info">
+        <div class="ag-primary_slogan">
+          <div class="ag-primary_slogan-new">
+            New
+          </div>
+          <div class="ag-primary_slogan-text">
+            High Intensity workout to burn calories
+          </div>
+        </div>
+
+        <div class="ag-primary_box">
+          <div class="ag-primary_title">
+            Cardio Exercise
+          </div>
+          <ul class="ag-primary_list">
+            <li class="ag-primary_item">
+              <div id="js-time" class="ag-primary_time"></div>
+              <div class="ag-primary_text">
+                Time
+              </div>
+            </li>
+            <li class="ag-primary_item">
+              <div class="ag-primary_calory js-count">
+                165
+              </div>
+              <div class="ag-primary_text">
+                Est calories
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="ag-primary_tagline">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+
+        <a href="/get-started" class="ag-base_btn">
+          Get Started
+        </a>
+
+        <a href="/preview" class="ag-base_btn ag-primary_btn">
+          Preview
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ag-video-block">
+    <div class="ag-format-container">
+      <div class="ag-video_box">
+        <div class="ag-video_title">
+          Popular Exercises
+        </div>
+
+        <div class="ag-video_more">
+          <a href="#" class="js-video_link ag-video_link">See more exercises</a>
+        </div>
+      </div>
+
+      <ul class="ag-video_list">
+        <li class="js-popup_btn ag-video_item" data-video-id="video-1">
+          <div class="ag-video_img-box">
+            <img src="images/videos/preview-1.jpg" class="ag-video_img" width="373" height="250" alt="Treadmill" />
+          </div>
+
+          <div class="ag-video_descr">
+            <div class="ag-video-descr_info">
+              <div class="ag-video-descr_name">Treadmill</div>
+              <div class="ag-video-descr_calory">250 est calories</div>
+            </div>
+            <div class="ag-video-descr_time">58:24</div>
+          </div>
+        </li>
+
+        <li class="js-popup_btn ag-video_item" data-video-id="video-2">
+          <div class="ag-video_img-box">
+            <img src="images/videos/preview-2.jpg" class="ag-video_img" width="373" height="250" alt="Stretching" />
+          </div>
+
+          <div class="ag-video_descr">
+            <div class="ag-video-descr_info">
+              <div class="ag-video-descr_name">Stretching</div>
+              <div class="ag-video-descr_calory">250 est calories</div>
+            </div>
+            <div class="ag-video-descr_time">18:44</div>
+          </div>
+        </li>
+
+        <li class="js-popup_btn ag-video_item" data-video-id="video-1">
+          <div class="ag-video_img-box">
+            <img src="images/videos/preview-3.jpg" class="ag-video_img" width="373" height="250" alt="Yoga" />
+          </div>
+
+          <div class="ag-video_descr">
+            <div class="ag-video-descr_info">
+              <div class="ag-video-descr_name">Yoga</div>
+              <div class="ag-video-descr_calory">250 est calories</div>
+            </div>
+            <div class="ag-video-descr_time">41:04</div>
+          </div>
+        </li>
+
+        <li class="js-popup_btn ag-video_item" data-video-id="video-2">
+          <div class="ag-video_img-box">
+            <img src="images/videos/preview-4.jpg" class="ag-video_img" width="373" height="250" alt="Running" />
+          </div>
+
+          <div class="ag-video_descr">
+            <div class="ag-video-descr_info">
+              <div class="ag-video-descr_name">Running</div>
+              <div class="ag-video-descr_calory">250 est calories</div>
+            </div>
+            <div class="ag-video-descr_time">20:20</div>
+          </div>
+        </li>
+
+        <li class="js-popup_btn ag-video_item" data-video-id="video-1">
+          <div class="ag-video_img-box">
+            <img src="images/videos/preview-5.jpg" class="ag-video_img" width="373" height="250" alt="Lifting" />
+          </div>
+
+          <div class="ag-video_descr">
+            <div class="ag-video-descr_info">
+              <div class="ag-video-descr_name">Lifting</div>
+              <div class="ag-video-descr_calory">250 est calories</div>
+            </div>
+            <div class="ag-video-descr_time">13:04</div>
+          </div>
+        </li>
+
+        <li class="js-popup_btn ag-video_item" data-video-id="video-2">
+          <div class="ag-video_img-box">
+            <img src="images/videos/preview-6.jpg" class="ag-video_img" width="373" height="250" alt="PushUp" />
+          </div>
+
+          <div class="ag-video_descr">
+            <div class="ag-video-descr_info">
+              <div class="ag-video-descr_name">PushUp</div>
+              <div class="ag-video-descr_calory">250 est calories</div>
+            </div>
+            <div class="ag-video-descr_time">22:24</div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="js-ag-video_more">
+        <div id="js-video_more" class="ag-video_list"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ag-trainer-block">
+    <div class="ag-trainer_box">
+      <div class="ag-format-container">
+        <div class="ag-trainer_title-box">
+          <div class="ag-trainer_title">
+            Workout Program Made For You
+          </div>
+          <div class="ag-trainer_info">
+            <div class="ag-trainer_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing.
+            </div>
+
+            <a href="/get-started" class="ag-base_btn">
+              Get Started
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="js-scroll_box ag-format-container">
+      <ul class="js-scroll_item ag-trainer_list">
+        <li class="ag-trainer_item">
+          <div class="ag-trainer_img-box">
+            <img src="images/trainer-1.jpg" class="ag-trainer_img" alt="Samantha William" />
+          </div>
+          <div class="ag-trainer_name">
+            Samantha William
+          </div>
+          <div class="ag-trainer_prof">
+            Trainer
+          </div>
+        </li>
+        <li class="ag-trainer_item">
+          <div class="ag-trainer_img-box">
+            <img src="images/trainer-2.jpg" class="ag-trainer_img" alt="Karen Summer" />
+          </div>
+          <div class="ag-trainer_name">
+            Karen Summer
+          </div>
+          <div class="ag-trainer_prof">
+            Trainer
+          </div>
+        </li>
+        <li class="ag-trainer_item">
+          <div class="ag-trainer_img-box">
+            <img src="images/trainer-3.jpg" class="ag-trainer_img" alt="Jonathan Wise" />
+          </div>
+          <div class="ag-trainer_name">
+            Jonathan Wise
+          </div>
+          <div class="ag-trainer_prof">
+            Trainer
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ag-category-block">
+    <div class="ag-format-container">
+      <ul class="ag-category_list">
+        <li class="ag-category_item">
+          <a href="/category-1" class="ag-category_link">
+            <div class="ag-category_num">
+              01
+            </div>
+            <div class="ag-category_info">
+              <div class="ag-category_title">
+                Workout at Home
+              </div>
+              <div class="ag-category_video">
+                15 videos
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ag-category_item">
+          <a href="/category-2" class="ag-category_link">
+            <div class="ag-category_num">
+              02
+            </div>
+            <div class="ag-category_info">
+              <div class="ag-category_title">
+                Stay Strong and Fit
+              </div>
+              <div class="ag-category_video">
+                48 videos
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ag-category_item">
+          <a href="/category-3" class="ag-category_link">
+            <div class="ag-category_num">
+              03
+            </div>
+            <div class="ag-category_info">
+              <div class="ag-category_title">
+                High Intensity
+              </div>
+              <div class="ag-category_video">
+                25 videos
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ag-category_item">
+          <a href="/category-4" class="ag-category_link">
+            <div class="ag-category_num">
+              04
+            </div>
+            <div class="ag-category_info">
+              <div class="ag-category_title">
+                Simple Workout
+              </div>
+              <div class="ag-category_video">
+                35 videos
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ag-category_item">
+          <a href="/category-5" class="ag-category_link">
+            <div class="ag-category_num">
+              05
+            </div>
+            <div class="ag-category_info">
+              <div class="ag-category_title">
+                Burn Calories
+              </div>
+              <div class="ag-category_video">
+                35 videos
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<section id="js-popup-video" class="js-ag-popup_overlay">
+  <div id="js-popup-video_video" class="ag-popup-video_box">
+    <div id="js-popup-video_btn-close" class="ag-popup-video_btn-close"></div>
+
+    <div class="js-videos ag-video_frame-16x9"></div>
+  </div>
+</section>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
